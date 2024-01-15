@@ -19,11 +19,15 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String displayText = 'Press the button';
+  String displayText = '自傳按鈕';
 
   void updateText() {
     setState(() {
-      displayText = 'Button pressed!';
+      displayText = '我是一位充滿熱情、積極進取的個性。出生在一個小鎮，我的成長歷程中充滿了各種挑戰和機會，這塑造了我堅韌不拔的性格。
+
+在學業方面，我一直以來都保持著優異的表現。我熱愛學習，對知識的渴望驅使著我不斷追求進步。在學校，我積極參與各項課外活動，不僅擴展了我的視野，還培養了我的領導才能。這讓我深刻體會到，學習不僅僅發生在課堂上，還包括生活的方方面面。
+
+在社會實踐中，我曾參與志願服務團隊，為社區做出了一點微薄的貢獻。這段經歷讓我更加了解社會的複雜性，也讓我體會到幫助他人的喜悅。我相信，每個人都應該承擔一份社會責任，這也是我努力學習和成長的原動力之一。總的來說，我是一個勇於挑戰自己、樂觀向前的人。我對生活充滿熱情，並將這份熱情投入到我的學業和事業中。我期待能夠在不斷成長和學習的過程中，為社會做出更大的貢獻。';
     });
   }
 
@@ -31,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Button Demo'),
+        title: Text('C110151155'),
       ),
       body: Center(
         child: Column(
